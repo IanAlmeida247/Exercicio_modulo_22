@@ -1,5 +1,8 @@
+// src/styles/event.scss
+@use 'variables'; // Importando as variáveis
+
 .event {
-    background-color: $cor-secundaria;
+    background-color: variables.$cor-secundaria;  // Acessando a variável com o namespace 'variables'
     text-align: center;
     padding: 2rem;
     border-radius: 8px;

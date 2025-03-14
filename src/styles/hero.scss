@@ -1,5 +1,8 @@
+@use 'variables'; // Importa as variáveis
+
 .hero {
-    background-color: $cor-principal;
+    background-color: variables.$cor-principal; // Usa o prefixo 'variables'
+
     color: white;
     text-align: center;
     padding: 5rem 1rem;

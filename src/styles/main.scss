@@ -1,0 +1,24 @@
+@use 'variables'; // Importa as variáveis
+@use 'hero';      // Importa o arquivo hero.scss
+@use 'event';     // Importa o arquivo event.scss
+
+body {
+    font-family: variables.$fonte-principal; // Usando a variável do arquivo 'variables.scss'
+    margin: 0;
+    padding: 0;
+    background-color: variables.$cor-secundaria; // Usando a variável do arquivo 'variables.scss'
+    color: variables.$cor-texto; // Usando a variável do arquivo 'variables.scss'
+}
+
+main {
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
